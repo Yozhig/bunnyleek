@@ -1,0 +1,13 @@
+{application, bunnyleek, [
+    {description, "Finds memory leaks through sub binaries"},
+    {vsn, "0.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["GLWTPL"]},
+    {links, []}
+ ]}.
